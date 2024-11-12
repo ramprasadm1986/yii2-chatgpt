@@ -10,7 +10,7 @@ class ChatGPT extends Component
     public $apiKey;
     public $apiUrl = 'https://api.openai.com/v1/chat/completions';
     public $defaultModel = 'gpt-3.5-turbo';  // Default model
-    public $defaultRole = "ChatGPT Advisor"
+    public $defaultRole = "ChatGPT Advisor";
 
     public function init()
     {
