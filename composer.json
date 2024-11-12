@@ -1,0 +1,31 @@
+{
+  "name": "ramprasadm1986/yii2-chatgpt",
+  "description": "A Yii2 component for interacting with the OpenAI ChatGPT API, including Agri Advisor GPT for agricultural advisory.",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "openai", "chatgpt", "agriculture", "advisor"],
+  "license": "MIT",
+  "authors": [
+        {
+            "name": "Ramprasad",
+            "email": "ramprasad@krititech.in",
+            "homepage": "https://github.com/ramprasadm1986",
+            "role": "Developer"
+        }
+    ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-httpclient": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ramprasadm1986\\chatgpt\\": "src/"
+    }
+  },
+  "extra": {
+    "yii\\extension": {
+      "name": "ramprasadm1986/yii2-chatgpt",
+      "version": "1.0.0"
+    }
+  }
+}
